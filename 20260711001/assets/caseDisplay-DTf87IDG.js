@@ -1,0 +1,1 @@
+import{an as r}from"./index-C0o6VVKP.js";function s(o){if(o==null||typeof o!="object")return 0;const e=["browseCount","BrowseCount","viewCount","ViewCount"];for(const t of e){const n=Number(o[t]);if(Number.isFinite(n)&&n>=0)return n}return 0}function i(o,e){const t=e?r(e):"";return{...o,browseCount:s(o),coverImage:t||void 0}}export{s as n,i as t};
