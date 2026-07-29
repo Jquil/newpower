@@ -1,0 +1,1 @@
+import{V as n,S as s}from"./CJwt9RIC.js";const a=20,r="/api/knowledge-data/query";function i(e,t){const o={...e,limit:e.limit??a};return n(s.KnowledgeBase,r,o,{signal:t})}const c=["案例","课程","资料","设备类型","设备系列","设备型号","品牌","视频"];export{c as K,i as q};
